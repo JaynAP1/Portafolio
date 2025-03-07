@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("/fonts/Minecraft.ttf");
+}
+
+*{
+    font-family: "Minecraft";
+    margin: 0;
+}
+.Cuerpo{
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(https://i.redd.it/bpxxqqvps4h91.gif);
+}
+.TopBar{
+    width: 100vw;
+    position:fixed;
+    background-color: black;
+    height: 3.5em;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ContentBar{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.ContentBar p{
+    font-size: 20px;
+    cursor: pointer;
+}
+.rightBar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2em;
+    gap: 2em;
+}
+.rightBar i{
+    scale: 1.5;
+}
+.MidCuerpo{
+    margin-top: 1em;
+    color: #ffffff;
+    width: 100vw;
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+}
+.MidContent{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 1em;
+}
+.MidContentLow{
+    width: 100vw;
+    background-color: black;
+}
+.LowCuerpo{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.MidContentLow{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1em;
+}
+.ContentBio{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.TextBio{
+    width: 20em;
+}
+.ImgBio img{
+    border-radius: 50%;
+    width: 400px;
+    height: auto;
+    border: 5px solid white;
+}
+.MoreText{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Proyectos{
+    padding-top: 2em;
+    background-color: black;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.BoxProjects{
+    padding-top: 2em;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Project1{
+
+}
+.ImgP1 img{
+    width: 400px;
+    height: 200px;
+    border: 2px solid white;
+}
+.ImgP2 img{
+    width: 400px;
+    height: 200px;
+
+    border: 2px solid white;
+}
+
+.Modi1{
+    color: #e924ef;
+    font-size: 55px;
+}
+.Modi2{
+    color: #38780f;
+    font-size: 55px;
+}
