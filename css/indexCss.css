@@ -7,6 +7,20 @@
     font-family: "Minecraft";
     margin: 0;
 }
+.Change{
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 90vh;
+    left: 94vw;
+    padding: 1em;
+    display: flex;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.Change i{
+    scale: 2;
+}
 .Cuerpo{
     overflow-x: hidden;
     width: 100vw;
@@ -42,19 +56,42 @@
 }
 .rightBar i{
     scale: 1.5;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+.rightBar i:hover{
+    scale: 1.8;
 }
 .MidCuerpo{
     margin-top: 1em;
     color: #ffffff;
     width: 100vw;
-    height: 87vh;
+    height: 95vh;
     display: flex;
     justify-content: center;
 }
 .MidContent{
     text-align: center;
     font-size: 50px;
-    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    gap: 4em;    
+}
+.TextAbout{
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+.Text1{
+    width: 10em;
+    background-color: #c59500;
+    padding: 0.5em;
+}
+.Text2{
+    background-color: black;
+    padding: 0.5em;
+}
+.colortextG{
+    color: #4e96ff;
 }
 .MidContentLow{
     width: 100vw;
@@ -80,7 +117,6 @@
     width: 20em;
 }
 .ImgBio img{
-    border-radius: 50%;
     width: 400px;
     height: auto;
     border: 5px solid white;
@@ -94,16 +130,18 @@
 .Proyectos{
     padding-top: 2em;
     background-color: black;
-    width: 100vw;
     color: white;
     text-align: center;
     font-size: 50px;
 }
 .BoxProjects{
+    margin: 0 auto;
     padding-top: 2em;
     font-size: 40px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 70vw;
 }
 .Project1{
 
@@ -116,7 +154,6 @@
 .ImgP2 img{
     width: 400px;
     height: 200px;
-
     border: 2px solid white;
 }
 
