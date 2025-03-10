@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const audio = document.getElementById("AudioMusic");
-    audio.volume = 0.03;
+    audio.volume = 0.05;
 
     document.body.addEventListener("click", () => {
         audio.muted = false;
@@ -47,7 +47,7 @@ document.getElementById("Mute").addEventListener("click",() =>{
     const audio = document.getElementById("AudioMusic");
     const iconMute = document.getElementById("Mute");
     if(audio.volume === 0){
-        audio.volume = 0.03;
+        audio.volume = 0.05;
         iconMute.className = "bx bxs-volume-full"
     }else{
         audio.volume = 0;

@@ -2,6 +2,10 @@
     font-family: "Minecraft";
     src: url("/fonts/Minecraft.ttf");
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 
 *{
     font-family: "Minecraft";
@@ -17,6 +21,7 @@
     display: flex;
     cursor: pointer;
     border-radius: 50%;
+    transition: all 300ms ease;
 }
 .Mutear i{
     scale: 2;
@@ -31,6 +36,7 @@
     display: flex;
     cursor: pointer;
     border-radius: 50%;
+    transition: all 300ms ease;
 }
 .Change i{
     scale: 2;
@@ -45,6 +51,7 @@
     transition: all 300ms ease;
 }
 .TopBar{
+    transition: all 300ms ease;
     width: 100vw;
     position:fixed;
     background-color: black;
@@ -78,6 +85,7 @@
     scale: 1.8;
 }
 .MidCuerpo{
+    transition: all 300ms ease;
     margin-top: 1em;
     color: #ffffff;
     width: 100vw;
@@ -90,7 +98,8 @@
     font-size: 50px;
     display: flex;
     align-items: center;
-    gap: 4em;    
+    gap: 4em;
+    flex-wrap: wrap;
 }
 .TextAbout{
     font-size: 30px;
@@ -113,6 +122,7 @@
     background-color: black;
 }
 .LowCuerpo{
+    transition: all 300ms ease;
     color: white;
     display: flex;
     justify-content: center;
@@ -143,20 +153,18 @@
 }
 
 .Proyectos{
-    padding-top: 2em;
+    padding-top: 3em;
+    transition: all 300ms ease;
     background-color: black;
     color: white;
     text-align: center;
     font-size: 50px;
 }
 .BoxProjects{
-    margin: 0 auto;
-    padding-top: 2em;
     font-size: 40px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 70vw;
 }
 
 .ImgP img{
@@ -203,4 +211,94 @@
 .Modi2{
     color: #38780f;
     font-size: 55px;
+}
+@media only screen and (max-height: 1000) {
+    .Cuerpo{
+        background-size:cover;
+        background-position-x: 50%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Text1{
+        width: 10em;
+        background-color:unset;
+        padding: 0.5em;
+    }
+    .Text2{
+        background-color: unset;
+        padding: 0.5em;
+    }
+    .ContentBar{
+        display: none;
+    }
+    .Cuerpo{
+        background-size:cover;
+        background-position-x: 50%;
+
+    }
+    .MidContent{
+        text-align: center;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-top: 2em;
+        align-items: center;
+        gap: 0;
+    }
+    .Change{
+        top: 85vh;
+        left: 85vw;
+        padding: 1em;
+        display: flex;
+        cursor: pointer;
+        border-radius: 50%;
+        transition: all 300ms ease;
+    }
+    .Mutear{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 85vh;
+        left: 2vw;
+        padding: 1em;
+        display: flex;
+        cursor: pointer;
+        border-radius: 50%;
+        transition: all 300ms ease;
+    }
+    .MidContentLow{
+        font-size: 30px;
+        padding: 1em;
+    }
+    .Modi1{
+        font-size: 35px;
+    }
+    .Modi2{
+        font-size:35px;
+    }
+    .ContentBio{
+        font-size: 30px;
+        flex-wrap: wrap;
+    }
+    .ImgBio img{
+        width: 300px;
+        height: auto;
+    }
+    .MoreText{
+        flex-wrap: wrap;
+    }
+    .BoxProjects{
+        padding-top: 2em;
+        font-size: 30px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .ImgP2 img{
+        width: 300px;
+        height: 150px;
+        border: 2px solid rgb(255, 255, 255);
+        cursor: pointer;
+    }
+
 }
