@@ -261,5 +261,7 @@ body{
         border: 2px solid rgb(0, 0, 0);
         cursor: pointer;
     }
-
+    .Aboutme{
+        font-size: 40px;
+    }
 }

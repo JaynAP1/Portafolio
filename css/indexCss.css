@@ -288,6 +288,9 @@ a{
     .MoreText{
         flex-wrap: wrap;
     }
+    .Proyectos{
+        padding-top: 1em;
+    }
     .BoxProjects{
         padding-top: 2em;
         font-size: 30px;
@@ -300,5 +303,7 @@ a{
         border: 2px solid rgb(255, 255, 255);
         cursor: pointer;
     }
-
+    .Aboutme{
+        font-size: 40px;
+    }
 }
