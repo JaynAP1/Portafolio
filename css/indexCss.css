@@ -156,7 +156,31 @@
     height: 200px;
     border: 2px solid white;
 }
+.Formulario{
+    padding-top: 1em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 1em;
+}
+.Form{
+    color: #e924ef;
+    margin-bottom: 0.5em;
+}
+.Datos{
+    margin: 0 auto;
+    width: 20em;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    text-align: center;
+}
 
+.Datos input{
+    height: 2.5em;
+}
 .Modi1{
     color: #e924ef;
     font-size: 55px;
